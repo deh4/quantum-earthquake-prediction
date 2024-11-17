@@ -1,12 +1,20 @@
 # Quantum Earthquake Prediction
 
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Map_of_earthquakes_1900-.svg/1280px-Map_of_earthquakes_1900-.svg.png)
+
+By [Phoenix7777](//commons.wikimedia.org/wiki/User:Phoenix7777 "User:Phoenix7777") – *Own work*
+
+Data source: [Search Earthquake Archives](https://earthquake.usgs.gov/earthquakes/search/), USGS [Kml data](https://earthquake.usgs.gov/fdsnws/event/1/query.kml&kmlcolorby=age?starttime=1900-01-01%2000:00:00&endtime=2017-12-31%2023:59:59&minmagnitude=6&orderby=magnitude-asc) ([earthquake.usgs.gov](earthquake.usgs.gov/fdsnws/event/1/query.kml&kmlcolorby=age)), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0 "Creative Commons Attribution-Share Alike 4.0"), [Link](https://commons.wikimedia.org/w/index.php?curid=65386375)
+
+
+
 **Predicting earthquakes using the power of quantum computing.**
 
 ---
 
 ## Why?
 
-Earthquakes are among the most destructive natural disasters. Early and accurate prediction could save lives, enable better preparedness, and mitigate damage. Quantum computing offers the potential to address the complexities of seismic data analysis and prediction.
+As someone who has been gone through it several times in my life, I can tell that earthquakes are among the most destructive natural disasters. Early and accurate prediction could save lives, enable better preparedness, and mitigate damage. Quantum computing with hybrid computing might offer the potential to address the complexities of seismic data analysis and prediction.
 
 ---
 
@@ -24,8 +32,6 @@ This project aims to:
 ## How?
 
 ### Roadmap
-
-#### Roadmap
 
 ```mermaid
 graph LR
@@ -47,7 +53,7 @@ graph LR
     F --> G[User Interface / API]
     G --> H[Feedback Loop with Domain Experts]
 ```
-### **Updated Components**
+### **Component Details**
 
 1. **Seismic Data Collection**
    - **Data Sources**: USGS Earthquake Catalog, IRIS, ISC, and additional international seismic networks.
